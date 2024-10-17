@@ -1,0 +1,116 @@
+/* src/components/movies/movies.css */
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Space between movie items */
+    padding: 20px;
+    /* Padding for the container */
+}
+
+.movie-card {
+    background-color: white;
+    /* Background color for movie cards */
+    border: 1px solid #ccc;
+    /* Border for movie cards */
+    border-radius: 8px;
+    /* Rounded corners */
+    padding: 15px;
+    /* Padding inside movie cards */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for elevation effect */
+    transition: transform 0.2s;
+    /* Smooth scaling effect on hover */
+    width: 200px;
+    /* Fixed width for movie cards */
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+    /* Scale effect on hover */
+}
+
+.movie-title {
+    font-size: 1.2rem;
+    /* Font size for movie title */
+    font-weight: bold;
+    /* Bold font for title */
+    margin-bottom: 10px;
+    /* Margin below the title */
+}
+
+.movie-description {
+    font-size: 0.9rem;
+    /* Font size for description */
+    color: #555;
+    /* Gray color for description text */
+    margin-bottom: 10px;
+    /* Margin below the description */
+}
+
+.movie-image {
+    width: 100%;
+    /* Full width for images */
+    border-radius: 8px;
+    /* Rounded corners for images */
+}
+
+/* src/components/movies/movies.css */
+
+.tag {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tag.selected {
+    background-color: #007bff;
+    /* Blue background for selected tags */
+    color: white;
+    /* White text for selected tags */
+    border-color: #007bff;
+    /* Match border color with background */
+}
+
+/* src/components/movies/movies.css */
+
+.filter {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    /* Light background for the filter */
+}
+
+.year-filters {
+    display: flex;
+    gap: 10px;
+    /* Space between year inputs */
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.genre-tags {
+    list-style: none;
+    /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow tags to wrap */
+}

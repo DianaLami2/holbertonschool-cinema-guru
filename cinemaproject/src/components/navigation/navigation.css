@@ -1,0 +1,130 @@
+/* src/components/navigation/navigation.css */
+
+/* Example styles for the navigation */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    /* Space between items */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    /* Dark background for navigation */
+}
+
+.nav-logo {
+    font-size: 24px;
+    color: #ffffff;
+    /* White text color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    /* Space between links */
+}
+
+.nav-link {
+    color: #ffffff;
+    /* White text color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+/* src/components/navigation/navigation.css */
+
+/* Example styles for the navigation */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    /* Space between items */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    /* Dark background for navigation */
+}
+
+.user-avatar {
+    border-radius: 50%;
+    /* Make the image circular */
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    /* Space between links */
+}
+
+.nav-link {
+    color: #ffffff;
+    /* White text color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+.logout {
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    color: #ffffff;
+    /* White text color */
+    display: flex;
+    align-items: center;
+    /* Center align icon and text */
+}
+
+.logout i {
+    margin-right: 5px;
+    /* Space between icon and text */
+}
+
+/* src/components/navigation/navigation.css */
+
+.sidebar {
+    width: 250px;
+    /* Adjust as needed */
+    background-color: #f0f0f0;
+    /* Example background */
+    padding: 20px;
+    /* Padding for the sidebar */
+}
+
+.navigation {
+    list-style-type: none;
+    /* Remove default list styles */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.navigation li {
+    cursor: pointer;
+    /* Pointer cursor for clickable items */
+    padding: 10px;
+    /* Padding for each navigation item */
+    transition: background-color 0.3s;
+    /* Transition for hover effect */
+}
+
+.navigation li:hover {
+    background-color: #d0d0d0;
+    /* Change background on hover */
+}
+
+.activity-list {
+    margin-top: 20px;
+    /* Spacing above activity list */
+}
+
+.activity-item {
+    /* Add any styles for activity items here */
+}

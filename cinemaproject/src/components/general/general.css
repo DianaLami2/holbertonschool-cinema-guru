@@ -1,0 +1,164 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.input-label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.input-icon {
+    margin-right: 0.5rem;
+}
+
+.input-field {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-icon {
+    margin-right: 0.5rem;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.searchbar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.searchbar-input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+}
+
+/* General Styles */
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    /* Black background */
+    color: #fff;
+    /* Default text color for contrast */
+}
+
+/* Input Component */
+.input-container {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-label {
+    font-size: 14px;
+    color: #fff;
+    /* White label for contrast */
+    margin-bottom: 8px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+    background-color: #1a1a1a;
+    /* Darker input background */
+}
+
+.input-field {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    padding: 0.5rem;
+    background-color: transparent;
+    color: #fff;
+    /* White input text */
+}
+
+.input-icon {
+    margin-right: 0.5rem;
+    color: #fff;
+    /* White icon */
+}
+
+/* Button Component */
+.button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff0000;
+    /* Red button */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #cc0000;
+    /* Darker red on hover */
+}
+
+.button-icon {
+    margin-right: 0.5rem;
+}
+
+/* SearchBar Component */
+.searchbar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.searchbar-input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+    background-color: #1a1a1a;
+    /* Darker input background */
+    color: #fff;
+    /* White text for input */
+    outline: none;
+}
+
+.searchbar-input::placeholder {
+    color: #999;
+    /* Lighter gray for placeholder */
+}
